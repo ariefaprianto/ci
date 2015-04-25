@@ -16,6 +16,6 @@ function cek_session_login()
     $session    =   $CI->session->userdata('status_login');
     if($session == 'oke')
     {
-        redirect('dashboard');
+        redirect('home');
     }   
 }
